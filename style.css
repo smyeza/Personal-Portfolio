@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: red;
+    min-height: 80px;
+}
+
+.main{
+    background-color: white;
+    min-height: 450px;
+    overflow: hidden;
+}
+
+.left{
+    background-color: #009;
+    min-height: 450px;
+    min-width: 300px;
+    float: left;
+    
+    
+}
+
+.right{
+    background-color: #999;
+    min-height: 450px;
+    margin-left: 300px;
+    padding-right: 0;
+    /* border: 2px solid red; */
+    background: url(images/scmyeza.jpg) no-repeat;
+    
+}
+
+/* Style picture in the right. */
+/* .photo{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+} */
+
+/* .photo img{
+    width: 100%;
+    height: 100%;
+} */
+
+/* Styling for Footer. */
+footer{
+    background-color: #090;
+    min-height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
