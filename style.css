@@ -6,6 +6,8 @@
 #container{
     width: 992px;
     height: 100%;
+    
+    
 }
 
 
@@ -38,8 +40,15 @@
     padding-left: 20px;
 }
 
+.heading{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    float: center;
+}
+
 #welcome{
-    min-width: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     padding-top: 60px;
@@ -66,16 +75,34 @@ span{
 
 #welcome ul{
     list-style: none;
+    margin: 40px;
+}
 
+#welcome ul li{
+    display: inline-block;
+}
+
+#welcome a{
+    text-decoration: none;
+    padding: 20px;
+}
+
+#projects{
+    height: 100vh;
+    padding-top: 60px;
 }
 
 
 
+#resume{
+    height: 100vh;
+    padding-top: 60px;
+}
 
-
-
-
-
+#contact{
+    height: 100vh;
+    padding-top: 60px;
+}
 
 
 
